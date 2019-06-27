@@ -1,0 +1,210 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+h3{
+    
+    font-size: 1.2rem;
+}
+
+p{
+    color: #747474;
+}
+
+.big-heading{
+    font-family:"Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #553C8B;
+    color: #ffff;
+}
+
+
+.faj{
+    transform: rotate(14deg);
+    width: 110%;
+   
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download-Buttons */
+
+.download-button{
+    margin: 3% 3% 5% 0;
+}
+
+/* Feature Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #9ea9f0;
+}
+.icon:hover{
+    background-color: #553c8b;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #665c84;
+    color: #ffff;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #665c84;
+    text-align: center;
+    
+}
+
+.press-logo{
+    width: 8%;
+    margin: 20px 50px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center; 
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+    background-color: #665c84;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Monserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    margin: auto
+}
+.social-icon1 {
+    color: #747474;
+
+}
+
+.social-icon1:hover{
+    color: skyblue;
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+.social-icon2 {
+    color: #747474;
+
+}
+
+.social-icon2:hover{
+    color: palevioletred;
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+.social-icon3 {
+    color: #747474;
+
+}
+
+.social-icon3:hover{
+    color: rgb(223, 135, 235);
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+
+
+.social-icon {
+    margin: 20px 20px;
+}
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+
+    .faj{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
